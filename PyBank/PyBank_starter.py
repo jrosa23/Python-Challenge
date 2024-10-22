@@ -40,7 +40,7 @@ with open(file_to_load) as financial_data:
         change = profit_loss - previous_profit
         changes.append(change)
 
-        #---Calculate the greatest increase in profits, and decreases in losses---#
+        #---Calculate the greatest increase in profits, and decreases in losses---# #Xpert Learning Assistant
         if change > greatest_increase["amount"]:
             greatest_increase = {"date": date, "amount": change}
         if change < greatest_decrease["amount"]:
