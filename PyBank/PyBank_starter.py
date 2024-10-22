@@ -13,8 +13,8 @@ file_to_output = os.path.join("analysis", "budget_analysis.txt")  # Output file 
 total_months = 0
 total_net = 0
 changes = []
-greatest_increase = {"date": None, "amount": float('-inf')}
-greatest_decrease = {"date": None, "amount": float('inf')}
+greatest_increase = {"date": None, "amount": float('-inf')} #Xpert Learning
+greatest_decrease = {"date": None, "amount": float('inf')} #Xpert Learning
 
 #---Open and read the csv---#
 with open(file_to_load) as financial_data:
