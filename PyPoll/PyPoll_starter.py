@@ -31,7 +31,7 @@ with open(file_to_load) as election_data:
     # Loop through each row of the dataset and process it
     for row in reader:
 
-        # Print a loading indicator (for large datasets)
+        # Print a loading indicator (for large datasets) #Xpert Learning Assistant
         print(".\n\n", end="")
 
         # Increment the total vote count for each row
