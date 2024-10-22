@@ -5,7 +5,7 @@ PyBank
 ---------------------------------------------------------------------------------------------
 Start off by loading necessary modules and reading the csv_file later using the csv.reader functionality that I imported from the csv module, making note to skip the header row as to not cause initial problems when iterating through the rows of data. 
 
-I then initialize a few variables to momentarily store placeholder data, that I will replace and fill as the iterator goes through the rows searching for my desired data. I also skip the first row of data in order to avoid appending it.
+I then initialize a few variables to momentarily store placeholder data. I was having issues with my greatest variables later with the numbers behaing weirdly, and Xpert Learning advised on setting them to positive infinity and negative infininty respectively as it is a common alorithim approach to data iteration. The variables then get replaced and filled as the iterator goes through the rows searching for my desired data. I also skip the first row of data in order to avoid appending it.
 
 The for row in reader loop will go through each row and update the total_months, and total_net, and evaluate the changes if any from month to month, it then will compute and capture the greatest incerase and decrease through some comparative if statements. The Xpert Learning Assistant helped me in figuring out the precise logic for the if statements which didnt take too long but I was struggling to figure that out. 
 
